@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router';
-import { MenuDigital } from './pages/MenuDigital';
+import { HomePage } from './pages/HomePage';
+import { CategoryPage } from './pages/CategoryPage';
 import './App.css';
 
 function App() {
@@ -7,7 +8,11 @@ function App() {
     <Routes>
       <Route
         path='/'
-        element={<MenuDigital />}
+        element={<HomePage />}
+      />
+      <Route
+        path='/categoria/:categoriaId'
+        element={<CategoryPage />}
       />
     </Routes>
   );
