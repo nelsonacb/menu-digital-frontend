@@ -19,7 +19,7 @@ if errorlevel 1 (
 
 echo.
 echo Iniciando servidor...
-call npx serve dist -l 3000
+call serve dist -l 3000
 
 pause
 )
@@ -27,6 +27,6 @@ pause
 
 REM Servir la carpeta dist
 echo Iniciando servidor...
-npx serve dist -l 3000
+serve dist -l 3000
 
 pause
