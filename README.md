@@ -1,5 +1,7 @@
 # Menu Digital Chilao
 
+![App Screenshot](./public/screenshot1.png)
+
 Sistema completo de gestión de menú digital para bar/restaurante, compuesto por tres módulos:
 
 - Backend (API REST con Node.js, Express, SQLite)
@@ -7,6 +9,8 @@ Sistema completo de gestión de menú digital para bar/restaurante, compuesto po
 - Admin Frontend (panel de administración para CRUD de categorías y productos)
 
 - Client Frontend (visualización pública del menú)
+
+![App Screenshot](./public/screenshot2.png)
 
 ## 📱 Client Frontend
 
